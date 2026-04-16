@@ -1,13 +1,13 @@
-#№ x-ui
+## x-ui
 
 
-#№№ SSL сертификат
+## SSL сертификат
 
-#№№ установка acme
+### установка acme
 curl https://get.acme.sh | sh
 source ~/.bashrc
 
-#№№ Выпускаем сертификат
+### Выпускаем сертификат
 ~/.acme.sh/acme.sh --issue --standalone -d DOMEN.NAME --force --register-account -m MY@gmail.com
-№№# или
+### или
 ~/.acme.sh/acme.sh --issue --standalone -d DOMEN.NAME
